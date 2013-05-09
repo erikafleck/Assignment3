@@ -58,8 +58,13 @@ nav {
 
 */
 
+.navigation ul {
+	margin:0px;
+}
 
-.navigation {		
+.navigation {	
+	margin:0px;
+	align:center;	
 	overflow: hidden;
 	border-bottom: 5px solid #000;
 }
