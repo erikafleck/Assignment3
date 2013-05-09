@@ -1,0 +1,148 @@
+/* 
+	Main Content
+
+*/
+
+
+body {
+	font-family:'Lucida Grande', helvetica, arial, sans-serif;
+	background-color:#CCC;
+}
+
+.middle {
+	background-color:#FFF;
+}
+
+h1 {
+	font-family: "Oswald", sans-serif;
+	font-size:75px;
+	line-height:80px;
+}
+
+h3, h5 {
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+}
+
+p {
+	line-height:1.5em;
+}
+
+ul {
+	line-height:1.5em;
+}
+
+/* 
+	Heading
+
+*/
+
+header {
+	background-color:#EF5029;
+	margin:0px;
+	padding:0px;
+}
+
+nav {
+	margin:0px;
+	padding:0px;
+}
+
+/* 
+	Main Navigation
+
+
+*/
+
+
+.navigation {
+	overflow: hidden;
+}
+
+.navigation a {
+	text-decoration:none;
+	color:#000;
+}
+
+.navigation li {
+	width: 160px;
+	float: left;
+	cursor: pointer;
+	list-style-type: none;
+	
+	padding: 0px 50px 0px 15px;
+	
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+}
+
+.navigation li h2 {
+	font-weight: normal;
+	font-size: 14px;
+	/*margin-bottom: 5px;*/
+	line-height: 16px;
+}
+
+.navigation li p{
+	font-size: 11px;
+	color: #FFF;
+	
+	-webkit-transition: all 0.1s ease-in;
+	-moz-transition: all 0.1s ease-in;
+	-o-transition: all 0.1s ease-in;
+}
+
+.navigation li:hover {
+	background: #333;
+	border-left: 5px solid #000;
+}
+
+.navigation li:hover h2 {
+	font-weight: bold;
+	color: #fff;
+}
+
+.navigation li:hover p {
+	color: #ccc;
+	padding-left: 5px;
+}
+
+/* 
+	Article
+
+*/
+
+.int {
+	background-color:#FFEE00;
+	padding: 30px;
+}
+
+
+.history {
+	border-right: 5px solid #000;
+	padding: 30px;
+	text-align:right
+}
+
+.skills {
+	background-color:#EF5029;
+	padding: 30px;
+}
+
+.tools {
+	background-color:#7DC6CD;
+	padding: 30px;
+}
+
+.occupation {
+	background-color:#FFF;
+	padding: 30px;
+}
+
+
+footer {
+	border-top: 5px solid #000;
+}
+
+
